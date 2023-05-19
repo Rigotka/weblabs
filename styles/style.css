@@ -1,0 +1,114 @@
+*{
+	background: #E0E0E0;
+	color: #333333;
+	font-family: monospace;
+	font-size: 14px;
+}
+
+body{
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 50px;
+}
+
+a{
+	text-decoration: none;
+	border-bottom: 3px solid #BBBBBB;
+}
+
+a:hover {
+	font-style: oblique;
+	border-bottom: 3px solid #BBBBBB;
+}
+
+header{
+	margin-left: 10%
+}
+
+header a{
+	font-size: 25px;
+}
+
+footer{
+	border-top: solid 1px #BBBBBB;
+	padding-top: 20px;
+	clear: left;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 150px; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    margin-top: 100px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+.description{
+	float: left;
+	margin-top: 100px;
+	max-width: 100%;
+	margin-right: 100px;
+	margin-bottom: 40px;
+	line-height: 40px;
+}
+
+.items{
+	float: left;
+	min-width: 48%;
+}
+
+.item-name{
+	font-weight: 700;
+	margin-bottom: 5px;
+	min-width: 50%; 
+}
+
+.item-value
+{
+	margin-bottom:20px;
+}
+
+@media only screen and (min-width: 700px) {
+	*{
+		font-size: 20px;
+	}
+	.description{
+		margin-left: 16%;
+	}
+	.items{
+		margin-left: 16%;
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	.description{
+		margin-left: 30%;
+	}
+	.items{
+		margin-left: 30%;
+	}
+	.item-name{
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 1280px){
+	.description{
+		margin-left: 0px;
+		max-width: 42%;
+	}
+	.items{
+		margin-left: 0px;
+		padding-top: 100px;
+	}
+	.item-value{
+		margin-bottom:50px;
+	}
+}
