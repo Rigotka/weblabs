@@ -7,7 +7,7 @@
 <body>
 	<h1>Инфорамция о разработчике <a href="/labs/lab2/lab2.php">вернуться</a></h1>
 		<div class = description>
-			Заданеи выполнено с помощью массива и цикла foreach.
+			Задании выполнено с помощью массива и цикла foreach.
 		</div>
 
 		<div class="items">
