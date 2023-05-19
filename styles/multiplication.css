@@ -1,0 +1,19 @@
+.items{
+	width: 48%;
+}
+
+.item{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.item-value
+{
+	margin-right: 40px;
+}
+
+@media only screen and (min-width: 1280px){
+	.item-value{
+		margin-bottom:0px;
+	}
+}
