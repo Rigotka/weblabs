@@ -15,7 +15,7 @@
 		<div class="items">
 			<div class="item">
 				<div class="item-name">lab1</div> 
-				<div class="item-value"><a href="">*клик*</a></div>
+				<div class="item-value"><a href="labs/lab1/lab1.php">*клик*</a></div>
 			</div>
 			<div class="item">
 				<div class="item-name">lab2</div>
