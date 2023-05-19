@@ -19,7 +19,7 @@
 			</div>
 			<div class="item">
 				<div class="item-name">lab2</div>
-				<div class="item-value"><a href="">*клик*</a></div>
+				<div class="item-value"><a href="labs/lab2/lab2.php">*клик*</a></div>
 			</div>
 			<div class="item">
 				<div class="item-name">GitHub</div>
