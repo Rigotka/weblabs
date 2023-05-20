@@ -16,14 +16,11 @@
 				for($i = 2; $i < 10; $i++)
 				{
 					echo "<div class='item'>";
-/*					echo "<div class='item-name'>$i</div>";
-*/					for($j = 1; $j < 10; $j++)
+					for($j = 1; $j < 10; $j++)
 					{
 						$result = $i.' * '.$j.' = '.($i * $j);
-/*						echo $result;
-*/						echo "<div class='item-value'>$result</div>";
-/*						echo "<br>";
-*/					}
+						echo "<div class='item-value'>$result</div>";
+					}
 					echo "</div>";
 				}
 			?>
